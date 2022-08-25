@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script>
+        function hello(paymentToken, cosmileToken, prime) {
+            console.log(paymentToken);
+            console.log(cosmileToken);
+            console.log(prime);
+            Android.jsCallAndroid2(paymentToken, cosmileToken, prime);
+        }
+    </script>
+</head>
+<body>
+<h1>Hello</h1>
+<br/>
+<button type="button" onclick="Android.jsCallAndroid1('Hello world!')">JS call Android!</button>
+</body>
+</html>
